@@ -1,1 +1,1 @@
-# BIT-Boy
+# BITboy

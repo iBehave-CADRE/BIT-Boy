@@ -34,6 +34,7 @@ digitalWrite(pin, value)
 ```
 
 pin: Die Arduino-Pinnummer.
+
 value: HIGH oder LOW.
 
 [Documentation](https://www.arduino.cc/reference/de/language/functions/digital-io/digitalwrite/)
@@ -43,6 +44,7 @@ pinMode(pin, mode)
 ```
 
 pin: the Arduino pin number to set the mode of.
+
 mode: INPUT, OUTPUT, or INPUT_PULLUP.
 
 [Documentation](https://www.arduino.cc/reference/en/language/functions/digital-io/pinmode/)
@@ -52,18 +54,7 @@ mode: INPUT, OUTPUT, or INPUT_PULLUP.
 delay(ms)
 ms: the number of milliseconds to pause. Allowed data types: unsigned long.
 
-int ledPin = 13;              // LED connected to digital pin 13
 
-void setup() {
-  pinMode(ledPin, OUTPUT);    // sets the digital pin as output
-}
-
-void loop() {
-  digitalWrite(ledPin, HIGH); // sets the LED on
-  delay(1000);                // waits for a second
-  digitalWrite(ledPin, LOW);  // sets the LED off
-  delay(1000);                // waits for a second
-}
 
 ### 2. Make the Buzzer Beep or Play a Melody
 

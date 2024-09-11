@@ -15,7 +15,7 @@ All provided files are in metric units (mm). The case can be 3D printed, while t
 
 | Item | Quantity | Notes | Product Example Link |
 | :---: | :---: | :---: | :---: |
-| PCB | 1 piece | custom design | [eurocircuits.com](https://www.eurocircuits.com/) |
+| PCB | 1 piece | [custom design](PCB) | [eurocircuits.com](https://www.eurocircuits.com/) |
 | Arduino UNO R4 Wifi | 1 piece | with LED matrix | [arduino.cc](https://store.arduino.cc/en-de/collections/boards-modules/products/uno-r4-wifi) |
 | Pins 90 degrees | bar of 11+2 | attached | [conrad.de](https://www.conrad.de/de/p/econ-connect-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-sl25ws40gc-1-st-1883758.html) |
 | Battery Holder | 1 piece | BC9VPC | [digikey.de](https://www.digikey.de/de/products/detail/mpd-memory-protection-devices/BC9VPC/257747) |
@@ -30,8 +30,8 @@ All provided files are in metric units (mm). The case can be 3D printed, while t
 | Red LED | 1 piece | set of 100 | [conrad.de](https://www.conrad.de/de/p/led-5mm-rot-led5mm-rot-tht-leuchtdiode-set-100-stueck-847144284.html) |
 | Tactile Switch | 1 piece | 450-1650-ND | [digikey.de](https://www.digikey.de/de/products/detail/te-connectivity-alcoswitch-switches/1825910-6/1632536) |
 | BNC Connector | 1 piece | ARF1690-ND | [digikey.de](https://www.digikey.de/de/products/detail/amphenol-rf/031-5431-10RFX/2041816?s=N4IgTCBcDaIAwGYCMBaArAFmSpcBKAYgBogC6AvkA) |
-| 470R Resistor | 1 piece |  | [conrad.de](https://www.conrad.de/de/p/yageo-cfr25j470rh-cfr-25jt-52-470r-kohleschicht-widerstand-470-axial-bedrahtet-0207-0-25-w-5-1-st-1417694.html) |
-| 10K Resistor | 1 piece |  | [digikey.de](https://www.conrad.de/de/p/yageo-cfr25j10kh-cfr-25jt-52-10k-kohleschicht-widerstand-10-k-axial-bedrahtet-0207-0-25-w-5-1-st-1417697.html) |
+| 470R Resistor | 1 piece | for LED | [conrad.de](https://www.conrad.de/de/p/yageo-cfr25j470rh-cfr-25jt-52-470r-kohleschicht-widerstand-470-axial-bedrahtet-0207-0-25-w-5-1-st-1417694.html) |
+| 10K Resistor | 1 piece | puldown for continuity check | [digikey.de](https://www.conrad.de/de/p/yageo-cfr25j10kh-cfr-25jt-52-10k-kohleschicht-widerstand-10-k-axial-bedrahtet-0207-0-25-w-5-1-st-1417697.html) |
 | Jumper Male-Female | 2 wires | for continuity check | [conrad.de](https://www.conrad.de/de/p/renkforce-jkmf403-jumper-kabel-arduino-banana-pi-raspberry-pi-40x-drahtbruecken-stecker-40x-drahtbruecken-buchse-30-2299844.html) |
 
 

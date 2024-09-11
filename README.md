@@ -35,12 +35,21 @@ All provided files are in metric units (mm). The case can be 3D printed, while t
 | Jumper Male-Female | 2 wires | for continuity check | [conrad.de](https://www.conrad.de/de/p/renkforce-jkmf403-jumper-kabel-arduino-banana-pi-raspberry-pi-40x-drahtbruecken-stecker-40x-drahtbruecken-buchse-30-2299844.html) |
 
 
+### Case Parts
+
+| Item | Quantity | Notes | Product Example Link |
+| :---: | :---: | :---: | :---: |
+| Case | 1 piece | [custom design](Case/BITboy_Case.stl) | 3D printed |
+| Acrylic Cover (3 mm) | 1 piece | [custom design](Case/BITboy_Acrylic_Cover.stl) | lasercut, can be printed |
 
 
 
 
-For case
-sdandoffs or case
+| Screw M x  mm | 8 pieces |  |  |
+
+
+
+
 Screws
 Washers
 

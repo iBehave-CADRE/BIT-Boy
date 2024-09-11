@@ -4,9 +4,11 @@ A handheld oscilloscope and behavior setup debugger for neuroscientists. Your ev
 
 Read and write analog as well as digital signals with ease. Check continuity in electronic circuits with the continuity checker. It can be used as a handheld oscilloscope or connected to your pc on a desk for higher resolution.
 
+General disclaimer: Our BITboy is designed to work in a range of 0-5V and will take damage if connected to higher loads. Therefore, please be careful. We are planning a future version with overvoltage protector.
+
 <p align="center">
-  <img src="./Images/BITboy_bottom.png" height="200">
-  <img src="./Images/BITboy_top.png" height="200">
+  <img src="./Images/BITboy_bottom.png" height="250">
+  <img src="./Images/BITboy_top.png" height="250">
 </p>
 
 All provided files are in metric units (mm). The case can be 3D printed, while the cover can be lasercut or printed. The design aims at maximum reproduxibility with low total cost.
@@ -52,14 +54,12 @@ Wiring Diagram
   <img src="./Images/Electronics_Diagram.png" width="800">
 </p>
 
-
 PCB Layout
 --------------------
 <p align="center">
-  <img src="./Images/PCB_top.png" width="400">
-  <img src="./Images/PCB_bottom.png" width="400">
+  <img src="./Images/PCB_top.png" height="250">
+  <img src="./Images/PCB_bottom.png" height="250">
 </p>
-
 
 Pin Layout
 --------------------
@@ -149,9 +149,6 @@ Pin Layout
 | 3.3V | 1x11 pin header | for custom code |
 | VIN | 1x11 pin header | for custom code |
 
-
-
-
 Modular-Door Control Logic
 --------------------
 
@@ -179,12 +176,6 @@ Reset button example
 Power via Battery example
 Continuity check example
 BNC example
-
-
-
-
-
-
 
 Lasercutting
 --------------------

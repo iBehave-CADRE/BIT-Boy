@@ -41,37 +41,10 @@ All provided files are in metric units (mm). The case can be 3D printed, while t
 | :---: | :---: | :---: | :---: |
 | Case | 1 piece | [custom design](Case/BITboy_Case.stl) | 3D printed |
 | Acrylic Cover (3 mm) | 1 piece | [custom design](Case/BITboy_Acrylic_Cover.stl) | lasercut, can be printed |
+| Screw M3x10 mm | 8 pieces | self-tapping | [mercateo.com](https://www.mercateo.com/p/1498C-8000152817/Flachkopfschraube_DIN_85_ISO_1580_Schlitz_M3x10_4_8_galv_verz_200St_.html?ViewName=live~secureMode) |
+| Washer M3 | 8 pieces |  | [mercateo.com](https://www.mercateo.com/p/4502-16H900/Unterlegscheibe_M3_H_0_5_mm_Aussen_7_mm_Stahl_verzinkt_DIN_125_ISO_7090_.html?ViewName=live~secureMode) |
 
-
-
-
-| Screw M x  mm | 8 pieces |  |  |
-
-
-
-
-Screws
-Washers
-
-
-
-### File List
-
-
-| Door-Module Component | Production Amount | Material |
-| :---: | :---: | :---: |
-| Arduino Holder | 1 piece | Acrylic glass 6mm, PLA or ABS |
-
-All files are available as .STEP (for 3D CAD), .DXF Files (scaling: 1pt equals 1mm for laser cutting), .STL (3D Object for Printing) and .SVG (Open Source Vector Graphic).
-
-And DXF
-
-
-
-
-
-
-
+All files are available as .STEP (for 3D CAD), .DXF Files (scaling: 1pt equals 1mm for laser cutting), .STL (3D Object for Printing). Electronics are provided as fusion arcive files (.f3z) and gerber files for PCB production with eurocircuits.
 
 Wiring Diagram
 --------------------

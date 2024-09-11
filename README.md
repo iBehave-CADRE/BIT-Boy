@@ -105,30 +105,11 @@ Pin Layout
 
 | Arduino Pin | Connected to | Note |
 | :---: | :---: | :---: |
-| VIN | switch + |  |
-| GND | switch - |  |
-
-
-Rotary Button
-D1 2 Interrupt
-GND 1
-
-Rotary Encoder
-D3 A Interrupt
-D4 B
-
-COM GND
-Shield GND
-
-
-
-
-
-
-
-
-
-
+| D2 | button 2 | interrupt pin |
+| GND | button 1 |  |
+| D3 | encoder A | interrupt pin |
+| D4 | encoder B |  |
+| GND | encoder shield & COM |  |
 
 ### Continuity Check
 

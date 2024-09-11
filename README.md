@@ -32,12 +32,10 @@ All provided files are in metric units (mm). The case can be 3D printed, while t
 | BNC Connector | 1 piece | ARF1690-ND | [digikey.de](https://www.digikey.de/de/products/detail/amphenol-rf/031-5431-10RFX/2041816?s=N4IgTCBcDaIAwGYCMBaArAFmSpcBKAYgBogC6AvkA) |
 | 470R Resistor | 1 piece |  | [digikey.de]() |
 | 1K Resistor | 1 piece |  | [digikey.de]() |
-
-| Jumper Male-Female | 2 pieces |  | [digikey.de]() |
-
+| Jumper Male-Female | 2 wires | for continuity check | [conrad.de](https://www.conrad.de/de/p/renkforce-jkmf403-jumper-kabel-arduino-banana-pi-raspberry-pi-40x-drahtbruecken-stecker-40x-drahtbruecken-buchse-30-2299844.html) |
 
 
-screws to attach battery holder
+
 
 
 

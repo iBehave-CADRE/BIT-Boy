@@ -11,8 +11,8 @@ Read and write analog as well as digital signals with ease. Check continuity in 
 
 
 <p align="center">
-  <img src="./images/BITboy_bottom.png" width="400">
-  <img src="./images/BITboy_top.png" width="400">
+  <img src="./Images/BITboy_bottom.png" width="400">
+  <img src="./Images/BITboy_top.png" width="400">
 </p>
 
 
@@ -68,15 +68,15 @@ For the case, we used a Babulab A1 mini filament printer.
 Wiring Diagram
 --------------------
 <p align="center">
-  <img src="./images/Electronics_Diagram.png" width="800">
+  <img src="./Images/Electronics_Diagram.png" width="800">
 </p>
 
 
 PCB Layout
 --------------------
 <p align="center">
-  <img src="./images/PCB_top.png" width="400">
-  <img src="./images/PCB_bottom.png" width="400">
+  <img src="./Images/PCB_top.png" width="400">
+  <img src="./Images/PCB_bottom.png" width="400">
 </p>
 
 

@@ -47,12 +47,9 @@ Useful functions for this exercise:
 
 ```C++
 digitalWrite(pin, value)
+//pin: Die Arduino-Pinnummer.
+//value: HIGH oder LOW.
 ```
-
-pin: Die Arduino-Pinnummer.
-
-value: HIGH oder LOW.
-
 [Digital Write Documentation](https://www.arduino.cc/reference/de/language/functions/digital-io/digitalwrite/)
 
 ```C++

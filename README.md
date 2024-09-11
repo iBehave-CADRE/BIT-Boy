@@ -5,8 +5,8 @@ A handheld oscilloscope and behavior setup debugger for neuroscientists. Your ev
 Read and write analog as well as digital signals with ease. Check continuity in electronic circuits with the continuity checker. It can be used as a handheld oscilloscope or connected to your pc on a desk for higher resolution.
 
 <p align="center">
-  <img src="./Images/BITboy_bottom.png" width="400">
-  <img src="./Images/BITboy_top.png" width="400">
+  <img src="./Images/BITboy_bottom.png" height="200">
+  <img src="./Images/BITboy_top.png" height="200">
 </p>
 
 All provided files are in metric units (mm). The case can be 3D printed, while the cover can be lasercut or printed. The design aims at maximum reproduxibility with low total cost.

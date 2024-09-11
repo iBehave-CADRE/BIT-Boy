@@ -11,6 +11,18 @@ Be careful, do not use more than 5V on the BNCs, since we do not have an übersp
 
 ### 1. Make the LED Blink
 
+```C++
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
+```
+
 ### 2. Make the Buzzer Beep or Play a Melody
 
 ### 3. Plot an Image on the LED Matrix

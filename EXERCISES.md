@@ -65,6 +65,7 @@ delay(ms)
 ```
 [delay Documentation](https://www.arduino.cc/reference/de/language/functions/time/delay/)
 
+
 [Solution](Exercise Solutions/01_Easy/01_Make_LED_Blink.md)
 
 ### 2. Make the Buzzer Beep or Play a Melody

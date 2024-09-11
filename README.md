@@ -160,23 +160,6 @@ Input detection is via digital input and internal pullup resistor. Consequently,
 | 5V (High) input | Closed (Up) | 5V output | 5V output |
 | 0V (Low) input | Open (Down) | 0V output | 0V output |
 
-
-Useful Resources
---------------------
-
-pullup and pulldown resistors
-Built in functions and Operators
-Arduino Functions
-DigitalRead/Write
-Rotary encoder example
-Buzzer example
-LED example
-DIP switch example
-Reset button example
-Power via Battery example
-Continuity check example
-BNC example
-
 Lasercutting
 --------------------
 

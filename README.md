@@ -17,7 +17,7 @@ All provided files are in metric units (mm). The case can be 3D printed, while t
 | :---: | :---: | :---: | :---: |
 | PCB | 1 piece | [custom design](PCB) | [eurocircuits.com](https://www.eurocircuits.com/) |
 | Arduino UNO R4 Wifi | 1 piece | with LED matrix | [arduino.cc](https://store.arduino.cc/en-de/collections/boards-modules/products/uno-r4-wifi) |
-| Pins 90 degrees | bar of 11+2 | attached | [conrad.de](https://www.conrad.de/de/p/econ-connect-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-sl25ws40gc-1-st-1883758.html) |
+| Pin Header 90 degrees | bar of 1x11 & 1x2 | attached | [conrad.de](https://www.conrad.de/de/p/econ-connect-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-sl25ws40gc-1-st-1883758.html) |
 | Battery Holder | 1 piece | BC9VPC | [digikey.de](https://www.digikey.de/de/products/detail/mpd-memory-protection-devices/BC9VPC/257747) |
 | Screw M2x8 mm | 3 pieces | for battery holder | [mercateo.com](https://www.mercateo.com/p/2805-M2X8(2f)D912(2d)A2/Schraube_M2x8_0_4_Kopf_Zylinder_Sechskant_HEX_1_5mm_DIN_912.html?ViewName=live~secureMode&chooseGeo=true&viewOptions=uiLanguage.en) |
 | Nut M2 | 3 pieces | for battery holder | [digikey.de](https://www.mercateo.com/p/2805-B2(2f)BN628/Mutter_Sechskant_M2_0_4_A2_Edelstahl_4mm_BN_628_DIN_934.html?ViewName=live~secureMode!uiLanguage.en) |
@@ -64,7 +64,109 @@ PCB Layout
 Pin Layout
 --------------------
 
+### Red LED
 
+| Arduino Pin | Connected to | Note |
+| :---: | :---: | :---: |
+| D12 | red LED + (long) | via 470R resistor |
+| GND | red LED - |  |
+
+### Piezo Buzzer
+
+| Arduino Pin | Connected to | Note |
+| :---: | :---: | :---: |
+| D11 | piezzo buzzer + | PWM (pulse width modulation) |
+| GND | piezzo buzzer - |  |
+
+### BNC 1 Analog I/O
+
+| Arduino Pin | Connected to | Note |
+| :---: | :---: | :---: |
+| A0 | BNC connector signal pin | for DAC |
+| GND | BNC connector shield/GND |  |
+
+### BNC 2 Digital I/O
+
+| Arduino Pin | Connected to | Note |
+| :---: | :---: | :---: |
+| D5 | BNC connector signal pin |  |
+| GND | BNC connector shield/GND |  |
+
+### DIP Switch (Dual in-line package)
+
+| Arduino Pin | Connected to | Note |
+| :---: | :---: | :---: |
+| D6 | 1 A |  |
+| D7 | 2 A |  |
+| D8 | 3 A |  |
+| GND | 1/2/3 B |  |
+
+### Rotary Encoder with Button
+
+| Arduino Pin | Connected to | Note |
+| :---: | :---: | :---: |
+| VIN | switch + |  |
+| GND | switch - |  |
+
+
+Rotary Button
+D1 2 Interrupt
+GND 1
+
+Rotary Encoder
+D3 A Interrupt
+D4 B
+
+COM GND
+Shield GND
+
+
+
+
+
+
+
+
+
+
+
+### Continuity Check
+
+| Arduino Pin | Connected to | Note |
+| :---: | :---: | :---: |
+| A3 | 1x2 pin header | with 10K pulldown resistor to GND |
+| 5V | 1x2 pin header |  |
+
+### Reset Button
+
+| Arduino Pin | Connected to | Note |
+| :---: | :---: | :---: |
+| RST | tactile switch A |  |
+| GND | tactile switch B |  |
+
+### ON-OFF Switch and Battery
+
+| Arduino Pin | Connected to | Note |
+| :---: | :---: | :---: |
+| VIN | switch + |  |
+| battery holder + | switch - |  |
+| GND | battery holder - |  |
+
+### Breakout Pins
+
+| Arduino Pin | Connected to | Note |
+| :---: | :---: | :---: |
+| AREF | 1x11 pin header | for custom code |
+| GND | 1x11 pin header | for custom code |
+| D10 | 1x11 pin header | for custom code |
+| D9 | 1x11 pin header | for custom code |
+| TX | 1x11 pin header | for custom code |
+| RX | 1x11 pin header | for custom code |
+| A2 | 1x11 pin header | for custom code |
+| A1 | 1x11 pin header | for custom code |
+| 5V | 1x11 pin header | for custom code |
+| 3.3V | 1x11 pin header | for custom code |
+| VIN | 1x11 pin header | for custom code |
 
 
 

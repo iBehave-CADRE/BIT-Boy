@@ -30,7 +30,7 @@ BNC example
 
 ### 1. Make the LED Blink
 
-```C++
+```C
 void setup() {
   // put your setup code here, to run once:
   // use semicolons after each line!
@@ -57,7 +57,7 @@ delay(ms)
 //ms: the number of milliseconds to pause. Allowed data types: unsigned long.
 ```
 
-[Solution](Exercise_Solutions/01_Easy/01_Make_LED_Blink.md)
+[Here you will find a possible solution](Exercise_Solutions/01_Easy/01_Make_LED_Blink.md)
 
 ### 2. Make the Buzzer Beep or Play a Melody
 

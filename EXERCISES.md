@@ -57,7 +57,7 @@ delay(ms)
 //ms: the number of milliseconds to pause. Allowed data types: unsigned long.
 ```
 
-[Solution](Exercise Solutions/01_Easy/01_Make_LED_Blink.md)
+[Solution](Exercise_Solutions/01_Easy/01_Make_LED_Blink.md)
 
 ### 2. Make the Buzzer Beep or Play a Melody
 

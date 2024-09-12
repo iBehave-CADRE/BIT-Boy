@@ -30,7 +30,8 @@ BNC example
 
 ### 1. Make the LED Blink
 
-```C
+[source,arduino]
+```
 void setup() {
   // put your setup code here, to run once:
   // use semicolons after each line!

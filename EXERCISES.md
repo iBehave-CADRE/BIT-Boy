@@ -89,7 +89,7 @@ delay(ms)
 //ms: the number of milliseconds to pause. Allowed data types: unsigned long.
 ```
 
-[Here you will find a possible solution](Exercise_Solutions\01_Easy\02_Make_Buzzer_Beep.md)
+[Here you will find a possible solution](Exercise_Solutions/01_Easy/02_Make_Buzzer_Beep.md)
 
 [Check out this link if you want to know hot wo play a melody](https://docs.arduino.cc/built-in-examples/digital/toneMelody/)
 

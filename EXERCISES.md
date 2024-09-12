@@ -30,8 +30,7 @@ BNC example
 
 ### 1. Make the LED Blink
 
-[source,arduino]
-```
+```C
 void setup() {
   // put your setup code here, to run once:
   // use semicolons after each line!
@@ -60,7 +59,39 @@ delay(ms)
 
 [Here you will find a possible solution](Exercise_Solutions/01_Easy/01_Make_LED_Blink.md)
 
-### 2. Make the Buzzer Beep or Play a Melody
+### 2. Make the Buzzer Beep (or Play a Melody if you feel like it)
+
+```C
+void setup() {
+  // put your setup code here, to run once:
+  // use semicolons after each line!
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  // use semicolons after each line!
+
+}
+
+//Useful functions for this exercise:
+
+tone(pin, frequency)
+tone(pin, frequency, duration)
+//pin: the Arduino pin on which to generate the tone.
+//frequency: the frequency of the tone in hertz. Allowed data types: unsigned int.
+//duration: the duration of the tone in milliseconds (optional). Allowed data types: unsigned long.
+
+noTone(pin)
+//pin: the Arduino pin on which to stop generating the tone
+
+delay(ms)
+//ms: the number of milliseconds to pause. Allowed data types: unsigned long.
+```
+
+[Here you will find a possible solution](Exercise_Solutions\01_Easy\02_Make_Buzzer_Beep.md)
+
+[Check out this link if you want to know hot wo play a melody](https://docs.arduino.cc/built-in-examples/digital/toneMelody/)
 
 ### 3. Plot an Image on the LED Matrix
 

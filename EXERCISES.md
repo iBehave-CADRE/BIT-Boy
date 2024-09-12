@@ -14,7 +14,7 @@ Useful Resources
 --------------------
 Here you can find a complete language reference, built in functions, variable types and structural operators:
 
-[Arduino Language Reference](https://www.arduino.cc/reference/de/)
+[Arduino Language Reference](https://www.arduino.cc/reference/en/)
 
 pullup and pulldown resistors
 Rotary encoder example
@@ -42,29 +42,20 @@ void loop() {
   // use semicolons after each line!
 
 }
-```
-Useful functions for this exercise:
 
-```C++
+//Useful functions for this exercise:
+
 digitalWrite(pin, value)
 //pin: Arduino-Pinnummer.
 //value: HIGH or LOW.
-```
-[Digital Write Documentation](https://www.arduino.cc/reference/de/language/functions/digital-io/digitalwrite/)
 
-```C++
 pinMode(pin, mode)
 //pin: the Arduino pin number to set the mode of.
 //mode: INPUT, OUTPUT, or INPUT_PULLUP.
-```
-[pinMode Documentation](https://www.arduino.cc/reference/en/language/functions/digital-io/pinmode/)
 
-```C++
 delay(ms)
 //ms: the number of milliseconds to pause. Allowed data types: unsigned long.
 ```
-[delay Documentation](https://www.arduino.cc/reference/de/language/functions/time/delay/)
-
 
 [Solution](Exercise Solutions/01_Easy/01_Make_LED_Blink.md)
 

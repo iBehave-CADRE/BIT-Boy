@@ -45,7 +45,7 @@ Life hack: Serial plotting is a very poferful debugging tool and coding help!
 
 ## Exercises Medium
 
-[Go To Exercises Easy](02_EXERCISES_medium.md)
+[Go To Exercises Medium](02_EXERCISES_medium.md)
 
 ### 1. Read an Analog or Digital Signal and Plot it via Serial Communication
 
@@ -57,7 +57,7 @@ Life hack: Serial plotting is a very poferful debugging tool and coding help!
 
 ## Exercises Hard
 
-[Go To Exercises Easy](03_EXERCISES_hard.md)
+[Go To Exercises Hard](03_EXERCISES_hard.md)
 
 ### 1. Read an Analog or Digital and Plot it on the LED Matrix Display
 

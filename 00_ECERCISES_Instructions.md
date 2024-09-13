@@ -1,39 +1,38 @@
 # Exercises
 
-Serial Printing is your most powerful debugging tool when coding your device.
+We prepared a collection of exercises as a guide throuhg different communication channels of laboratory instruments: digital signals, analog signals and serial communication. These exercises are with increasing difficulty from easy, medium to hard. First, individual functional modules of the device will be adressed, later they will be combined for interoperability. Working throuhg them in a sequential manner will allow to built up know how to the point of generating the complete firmware. 
 
-You will have to install the Arudino IDE and copy paste the code from here to the sketch. Then compile and upload.
+This course will therefore provide essential knowledge for implementing and trouble shooting experimental setups for neuroscience. As a bonus, the resulting device will be a handy companion for future laboratory projects.
+
+You will have to install the Arudino IDE and copy paste the code from GitHub to the sketch area in the GUI.
 
 [Download Arduino IDE](https://www.arduino.cc/en/software)
 
+In some cases Arduino IDE will require installation of additional drivers for the Arduino UNO rev4 board. This will happen automatically. Connecting the Arduino via USB will allow to select the corresponding serial port, compile and upload the sketch code.
 
-
-Sometimes the Arduino will require an additional driver installation. 
-
-Easy and medium exercises are structured such that you can make each individual function work individually. Each excersise being an individual chunk of code. You can try to make modules while coding this. The hard exercises involve bringing the individual functions together to make them work in an integrated device.
-
-Be careful, do not apply more than 5V on the BNCs as the device currently does not have overvoltage protection (überspannungs schutz).
+General disclaimer: Our BITboy is designed to work in a range of 0-5V and will take damage if connected to higher loads. Therefore, please be careful. We are planning a future version with overvoltage protection.
 
 Useful Resources
 --------------------
+
 Here you can find a complete language reference, built in functions, variable types and structural operators:
 
 [Arduino Language Reference](https://www.arduino.cc/reference/en/)
 
-Using functions in a scetch:
+To complete all exercises, you will have to master functions in Arduino. It can be used to create custom functions but also to pass parameters along and return data:
 
-[How to functions](https://docs.arduino.cc/learn/programming/functions/)
-How to pass parameters and return data. This is very important for the hard exercises.
+[Using functions in a sketch](https://docs.arduino.cc/learn/programming/functions/)
 
-For this exercise you will have to use the Serial Plotter and/or Serial Monitor of the Arduino IDE.
+
+Serial Printing is your most powerful debugging tool when coding your device:
+
+[Arduino serial communication](https://www.arduino.cc/reference/en/language/functions/communication/serial/)
+
+In some cases you will have to use the Serial Plotter  and/or Serial Monitor of the Arduino IDE:
 
 Tools > Serial Plotter
 
 Tools > Serial Monitor
-
-Life hack: Serial plotting is a very powerful debugging tool and coding help!
-
-
 
 ## Exercises Easy
 

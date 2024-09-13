@@ -155,7 +155,7 @@ Pin Layout
 | 3.3V | 1x11 pin header | for custom code |
 | VIN | 1x11 pin header | for custom code |
 
-Modular-Door Control Logic
+BITboy Control Logic
 --------------------
 
 Each reset/reboot of the device will start a readout procedure of the DIP switch to determine one of six operational settings modes.

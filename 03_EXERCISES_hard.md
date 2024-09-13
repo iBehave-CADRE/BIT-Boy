@@ -71,7 +71,7 @@ delay(ms)
 //ms: the number of milliseconds to pause. Allowed data types: unsigned long.
 ```
 
-[Here you will find the finished firmware](Exercise_Solutions/03_Hard/01_Plot_Analog.md)
+[Here you will a possible solution](Exercise_Solutions/03_Hard/01_Plot_Analog.md)
 
 ### 2. Combine All Modules and Make them Work Together
 

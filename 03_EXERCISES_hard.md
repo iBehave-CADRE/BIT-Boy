@@ -75,18 +75,17 @@ delay(ms)
 
 ### 2. Combine All Modules and Make them Work Together
 
-At this point you will build upon the previous exercises and make all functions work together.
+```C++
+void setup() {
 
-Here it will be essential to implement arduino functions with returns for global interacting modules.
+}
 
-For example, each fuctional module of the device can be handled as an indepenent library.
+void loop() {
 
-You can save code in a separate .h file and include it as follows:
+}
+//Useful functions for this exercise:
 
-#include "DIPSwitch.h"
-
-In the upper right corner click on "..." and select new tab. You can rename it to DIPSwitch.h to generate an external file with additional code.
-
-This will allow you to create configuration functions for each module and include them in the main code in void setup. In addition once can create functions to include in the loop that pass on parameters via return.
+//If you are here, you know hot to navigate Arduino documentation and coding language references ;-)
+```
 
 [Here you will find the finished firmware](Firmware/BITboy)

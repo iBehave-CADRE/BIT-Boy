@@ -36,6 +36,8 @@ Tools > Serial Monitor
 
 ## Exercises Easy
 
+Here you can make the individual module work and get some first exposure.
+
 [Go To Exercises Easy](01_EXERCISES_easy.md)
 
 ### 1. Make the LED Blink
@@ -48,6 +50,8 @@ Tools > Serial Monitor
 
 ## Exercises Medium
 
+Here modues with more complex functionality are implemented and in some cases integrated.
+
 [Go To Exercises Medium](02_EXERCISES_medium.md)
 
 ### 1. Read an Analog or Digital Signal and Plot it via Serial Communication
@@ -59,6 +63,18 @@ Tools > Serial Monitor
 ### 4. Implement the Rotary Encoder with Button
 
 ## Exercises Hard
+
+At this point you will build upon the previous exercises and make all functions work together. Here it will be essential to implement Arduino functions with returns for global interacting modules. For example, each fuctional module of the device can be handled as an indepenent library.
+
+You can save code in a separate .h file and include it as follows:
+
+```C++
+#include "DIPSwitch.h"
+```
+
+In the upper right corner of the Arduino IDE click on "..." and select new tab. You can rename it to DIPSwitch.h to generate an external file with additional code.
+
+This will allow you to create configuration functions for each module and include them in void setup of the main sketch file. In addition zou can create functions for void loop that pass on parameters via return.
 
 [Go To Exercises Hard](03_EXERCISES_hard.md)
 

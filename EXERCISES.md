@@ -4,7 +4,11 @@ Serial Printing is you most powerful debugging tool when coding your device.
 
 You will have to install the Arudino IDE and copy paste the code from here to the sketch. Then compile and upload.
 
-Sometimes the Arduino requires an additional driver installation
+[Download Arduino IDE](https://www.arduino.cc/en/software)
+
+
+
+Sometimes the Arduino requires an additional driver installation. 
 
 Easy and medium are thought in a way that you can make each individual function work individually. Each excersise can be an individual code. You can try to make modules while coding thisn. And then in hard the task is to bring the individual functions to gether and make them work all at once.
 
@@ -64,13 +68,11 @@ delay(ms)
 ```C
 void setup() {
   // put your setup code here, to run once:
-  // use semicolons after each line!
 
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  // use semicolons after each line!
 
 }
 
@@ -91,9 +93,54 @@ delay(ms)
 
 [Here you will find a possible solution](Exercise_Solutions/01_Easy/02_Make_Buzzer_Beep.md)
 
-[Check out this link if you want to know hot wo play a melody](https://docs.arduino.cc/built-in-examples/digital/toneMelody/)
+[Check out this link if you want to know how to play a melody](https://docs.arduino.cc/built-in-examples/digital/toneMelody/)
 
-### 3. Plot an Image on the LED Matrix
+### 3. Plot an Image on the LED Matrix (or display an animation if you feel like it)
+
+```C
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
+
+//Useful functions for this exercise:
+
+//You will have to include the LED matrix library
+#include "Arduino_LED_Matrix.h"
+
+Serial.begin(speed)
+//speed: in bits per second (baud). Allowed data types: long.
+
+//start the LED Matrix by adding this line in void setup:
+matrix.begin();
+
+//This is how you can make a two-dimensional array of bytes to encode an image:
+uint8_t BootScreen[8][12] = {
+  { 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0 },
+  { 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1 },
+  { 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0 }
+};
+
+//This is how you can render and display your two-dimensional array as an image:
+matrix.renderBitmap(BootScreen, 8, 12);
+
+```
+
+[More about arrays here](https://www.arduino.cc/reference/en/language/variables/data-types/array/)
+
+[Here you will find a simple solution](Exercise_Solutions/01_Easy/03_Make_LED_Matrix_Image.md)
+
+[Check out this link if you want to know how to play a more complex Animation ](https://docs.arduino.cc/tutorials/uno-r4-wifi/led-matrix/)
 
 ### 4. Write an Analog or Digital Signal
 

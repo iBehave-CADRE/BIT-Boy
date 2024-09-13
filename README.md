@@ -158,6 +158,11 @@ Pin Layout
 Modular-Door Control Logic
 --------------------
 
+Each reset/reboot of the device will start a readout procedure of the DIP switch to determine one of six operational settings modes.
+
+
+The following table provides an overview about individual modules and their task during each mode:
+
 | Module | Analog In Pulse/Constant | Analog Out Pulse | Analog Out Constant |Digital In Pulse/Constant | Digital Out Pulse | Digital Out Constant |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **BNC_1 Analog I/O** | Analog Read | Analog Write | Analog Write | Idle | Idle | Idle |
@@ -167,9 +172,8 @@ Modular-Door Control Logic
 | **Output LED-Red** | Idle | Write Indicator | Write Indicatr | Idle | Write Indicator | Write Indicator |
 | **Buzzer** | Coupled Continuity |  |  |  |  |  |
 | **LED Matrix** | Analog Voltage | Analog Voltage | Analog Voltage | Digital Voltage | Digital Voltage | Digital Voltage |
-| **Continuity Check** | Active |  |  |  |  |  |
-| **Breakout Pins** | Idle for custom programming |  |  |  |  |  |
-| **Reset Button** | Reset and Readout settings mode |  |  |  |   | |
+| **Continuity Check** | Active | Active | Active | Active | Active | Active |
+| **Breakout Pins** | Idle | Idle | Idle | Idle | Idle | Idle |
 
 Lasercutting
 --------------------

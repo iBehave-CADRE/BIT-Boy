@@ -125,6 +125,8 @@ Pin Layout
 | RST | tactile switch A |  |
 | GND | tactile switch B |  |
 
+[Here you find an example for using the RST pin with a tactile switch](https://www.circuitschools.com/external-reset-button-for-arduino-or-reset-arduino-with-code/)
+
 ### ON-OFF Switch and Battery
 
 | Arduino Pin | Connected to | Note |
@@ -132,6 +134,10 @@ Pin Layout
 | VIN | switch + |  |
 | battery holder + | switch - |  |
 | GND | battery holder - |  |
+
+[Here you find more about powering options for Arduinos](https://docs.arduino.cc/learn/electronics/power-pins/)
+
+[Here you find an example and pictures for powering with a battery](https://www.instructables.com/Powering-Arduino-with-a-Battery/)
 
 ### Breakout Pins
 

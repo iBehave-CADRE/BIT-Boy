@@ -20,16 +20,6 @@ Here you can find a complete language reference, built in functions, variable ty
 
 [Arduino Language Reference](https://www.arduino.cc/reference/en/)
 
-pullup and pulldown resistors
-Rotary encoder example
-Buzzer example
-LED example
-DIP switch example
-Reset button example
-Power via Battery example
-Continuity check example
-BNC example
-
 ## Exercises Easy
 
 ### 1. Make the LED Blink

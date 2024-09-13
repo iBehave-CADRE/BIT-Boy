@@ -20,6 +20,7 @@ All provided files are in metric units (mm). The case can be 3D printed, while t
 | PCB | 1 piece | [custom design](PCB) | [eurocircuits.com](https://www.eurocircuits.com/) |
 | Arduino UNO R4 Wifi | 1 piece | with LED matrix | [arduino.cc](https://store.arduino.cc/en-de/collections/boards-modules/products/uno-r4-wifi) |
 | Pin Header 90 degrees | bar of 1x11 & 1x2 | attached | [conrad.de](https://www.conrad.de/de/p/econ-connect-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-sl25ws40gc-1-st-1883758.html) |
+| Pin Header | bar of 1x6, 2x 1x8 & 1x10 | attached | [conrad.de]([[https://www.conrad.de/de/p/econ-connect-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-40-sl25ws40gc-1-st-1883758.html](https://www.conrad.de/de/p/econ-connect-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-6-sl6g1-1-st-1884013.html)](https://www.conrad.de/de/p/econ-connect-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-6-sl6g1-1-st-1884013.html)) |
 | Battery Holder | 1 piece | BC9VPC | [digikey.de](https://www.digikey.de/de/products/detail/mpd-memory-protection-devices/BC9VPC/257747) |
 | Screw M2x8 mm | 3 pieces | for battery holder | [mercateo.com](https://www.mercateo.com/p/2805-M2X8(2f)D912(2d)A2/Schraube_M2x8_0_4_Kopf_Zylinder_Sechskant_HEX_1_5mm_DIN_912.html?ViewName=live~secureMode&chooseGeo=true&viewOptions=uiLanguage.en) |
 | Nut M2 | 3 pieces | for battery holder | [digikey.de](https://www.mercateo.com/p/2805-B2(2f)BN628/Mutter_Sechskant_M2_0_4_A2_Edelstahl_4mm_BN_628_DIN_934.html?ViewName=live~secureMode!uiLanguage.en) |

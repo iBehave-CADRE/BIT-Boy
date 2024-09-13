@@ -74,7 +74,7 @@ delay(ms)
 
 ### 2. Implement the Continuity Check
 
-The continuity check allows to test continuity between two parts with two pins. If there is continuity, 5V can flow to pin A3 and pull it to a HIGH state. The pulldown resistor ensures a stable reading of the LOW state. Write a code that makes the buzzer beep when there is continuity between the 5V pin and the A3 pin. You can use A3 as a digital pin for simplicity.
+The continuity check allows you to test whether two parts are connected between two pins. If there is continuity, 5V can flow to pin A3 and pull it to a HIGH state. The pulldown resistor ensures a stable reading of the LOW state. Write a code that makes the buzzer beep when there is continuity between the 5V pin and the A3 pin. You can use A3 as a digital pin for simplicity.
 
 ```C++
 
@@ -129,7 +129,7 @@ delay(ms)
 
 ### 3. Implement the DIP Switch
 
-The DIP switch is used to read out a preset when booting the device. You can implement the code in the setup section to only read it once and serial print the mode. Resetting will allow a new readout.
+The DIP switch is used to set the BITBoy's function when powered on. Its state is read out to assign a preset when booting the device. You can implement the code in the setup section to only read it once and serial print the mode. Resetting will allow a new readout.
 
 ```C++
 

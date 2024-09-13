@@ -5,6 +5,8 @@
 #define AnalogDataPin A0
 #define DigitalDataPin D5   
 
+
+//Initialising variables for later use in the script
 int MeasuredDigitalInput;
 int MeasuredAnalogInput;
 

@@ -1,28 +1,7 @@
-# Exercises
 
-Serial Printing is you most powerful debugging tool when coding your device.
-
-You will have to install the Arudino IDE and copy paste the code from here to the sketch. Then compile and upload.
-
-[Download Arduino IDE](https://www.arduino.cc/en/software)
-
-
-
-Sometimes the Arduino requires an additional driver installation. 
-
-Easy and medium are thought in a way that you can make each individual function work individually. Each excersise can be an individual code. You can try to make modules while coding thisn. And then in hard the task is to bring the individual functions to gether and make them work all at once.
-
-Be careful, do not use more than 5V on the BNCs, since we do not have an überspannungs schutz.
-
-Useful Resources
---------------------
-Here you can find a complete language reference, built in functions, variable types and structural operators:
-
-[Arduino Language Reference](https://www.arduino.cc/reference/en/)
 
 pullup and pulldown resistors
 Rotary encoder example
-Continuity check example
 DIP switch example
 
 Arduino Function Overview for How to make them nicely interactive
@@ -30,14 +9,6 @@ Arduino Function Overview for How to make them nicely interactive
 ## Exercises Medium
 
 ### 1. Read an Analog or Digital Signal and Plot it via Serial Communication
-
-For this exercise you will have to use the Serial Plotter and/or Serial Monitor of the Arduino IDE.
-
-Tools > Serial Plotter
-
-Tools > Serial Monitor
-
-Life hack: Serial plotting is a very poferful debugging tool and coding help!
 
 ```C
 void setup() {
@@ -104,14 +75,57 @@ delay(ms)
 
 ### 2. Implement the Continuity Check
 
+The continuity check allows to test continuity between two parts with two pins. If there is continuity, 5V can flow to pin A3 and pull it to a HIGH state. The pulldown resistor ensures a stable reading of the LOW state. Write a code that makes the buzzer beep when there is continuity between the 5V pin and the A3 pin. You can use A3 as a digital pin for simplicity.
+
+```C++
+
+void setup() {
+
+}
+
+void loop() {
+
+}
+
+//Useful functions for this exercise:
+
+pinMode(pin, mode)
+//pin: the Arduino pin number to set the mode of.
+//mode: INPUT, OUTPUT, or INPUT_PULLUP.
+
+digitalRead(pin)
+//pin: the Arduino pin number you want to read
+// Returns HIGH or LOW
+
+tone(pin, frequency)
+tone(pin, frequency, duration)
+//pin: the Arduino pin on which to generate the tone.
+//frequency: the frequency of the tone in hertz. Allowed data types: unsigned int.
+//duration: the duration of the tone in milliseconds (optional). Allowed data types: unsigned long.
+
+noTone(pin)
+//pin: the Arduino pin on which to stop generating the tone
+
+//You can use an if/else if loop for this task
+if (condition1) {
+  // do Thing A
+}
+else if (condition2) {
+  // do Thing B
+}
+else {
+  // do Thing C
+}
+//condition: a boolean expression (i.e., can be true or false).
+
+delay(ms)
+//ms: the number of milliseconds to pause. Allowed data types: unsigned long.
+```
+
+[Here you will find a possible solution](Exercise_Solutions/02_Medium/02_Continuity_Check.md)
+
 ### 3. Implement the DIP Switch
 
 ### 4. Implement the Rotary Encoder with Button
 
 ### 5. Implement the Rotary Encoder with Button
-
-## Hard
-
-### 1. Read an Analog or Digital and Plot it on the LED Matrix Display
-
-### 2. Combine All Modules and Make them Work Together

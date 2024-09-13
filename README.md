@@ -160,16 +160,16 @@ Modular-Door Control Logic
 
 | Module | Analog In Pulse/Constant | Analog Out Pulse | Analog Out Constant |Digital In Pulse/Constant | Digital Out Pulse | Digital Out Constant |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| BNC_1 Analog I/O | Analog Read | Analog Write | Analog Write | Idle | Idle | Idle |
-| BNC_2 Digital I/O | Idle | Idle | Idle | Digital Read | Digital Write | Digital Write |
-| Rotary Encoder | Temporal Resolution | Set Voltage | Set Voltage | Temporal Resolution | Idle | Idle |
-| Rotary Button | Idle | Hold | Toggle | Idle | Hold | Toggle |
-| Output LED-Red | Idle | Write Indicator | Write Indicatr | Idle | Write Indicator | Write Indicator |
-| Buzzer | Coupled Continuity |  |  |  |  |  |
-| LED Matrix | Analog Voltage | Analog Voltage | Analog Voltage | Digital Voltage | Digital Voltage | Digital Voltage |
-| Continuity Check | Active |  |  |  |  |  |
-| Breakout Pins | Idle for custom programming |  |  |  |  |  |
-| Reset Button | Reset and Readout settings mode |  |  |  |    |
+| **BNC_1 Analog I/O** | Analog Read | Analog Write | Analog Write | Idle | Idle | Idle |
+| **BNC_2 Digital I/O** | Idle | Idle | Idle | Digital Read | Digital Write | Digital Write |
+| **Rotary Encoder** | Temporal Resolution | Set Voltage | Set Voltage | Temporal Resolution | Idle | Idle |
+| **Rotary Button** | Idle | Hold | Toggle | Idle | Hold | Toggle |
+| **Output LED-Red** | Idle | Write Indicator | Write Indicatr | Idle | Write Indicator | Write Indicator |
+| **Buzzer** | Coupled Continuity |  |  |  |  |  |
+| **LED Matrix** | Analog Voltage | Analog Voltage | Analog Voltage | Digital Voltage | Digital Voltage | Digital Voltage |
+| **Continuity Check** | Active |  |  |  |  |  |
+| **Breakout Pins** | Idle for custom programming |  |  |  |  |  |
+| **Reset Button** | Reset and Readout settings mode |  |  |  |   | |
 
 Lasercutting
 --------------------

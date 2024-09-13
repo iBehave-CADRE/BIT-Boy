@@ -89,4 +89,4 @@ In the upper right corner click on "..." and select new tab. You can rename it t
 
 This will allow you to create configuration functions for each module and include them in the main code in void setup. In addition once can create functions to include in the loop that pass on parameters via return.
 
-[Here you will find the finished firmware](Firmware\BITboy)
+[Here you will find the finished firmware](Firmware/BITboy)

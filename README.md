@@ -158,13 +158,18 @@ Pin Layout
 Modular-Door Control Logic
 --------------------
 
-Input detection is via digital input and internal pullup resistor. Consequently, 0V (or connecting to GND) at the signal in port will open the door, while 5V will close it again. Sync ports will be set to the corresponding output current.
-
-
-| BNC In Signal | Door Status | BNC Sync 1 Status | BNC Sync 2 Status |
-| :---: | :---: | :---: | :---: |
-| 5V (High) input | Closed (Up) | 5V output | 5V output |
-| 0V (Low) input | Open (Down) | 0V output | 0V output |
+| Module | Analog In Pulse/Constant | Analog Out Pulse | Analog Out Constant |Digital In Pulse/Constant | Digital Out Pulse | Digital Out Constant |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| BNC_1 Analog I/O | Analog Read | Analog Write | Analog Write | Idle | Idle | Idle |
+| BNC_2 Digital I/O | Idle | Idle | Idle | Digital Read | Digital Write | Digital Write |
+| Rotary Encoder | Temporal Resolution | Set Voltage | Set Voltage | Temporal Resolution | Idle | Idle |
+| Rotary Button | Idle | Hold | Toggle | Idle | Hold | Toggle |
+| Output LED-Red | Idle | Write Indicator | Write Indicatr | Idle | Write Indicator | Write Indicator |
+| Buzzer | Coupled Continuity |  |  |  |  |  |
+| LED Matrix | Analog Voltage | Analog Voltage | Analog Voltage | Digital Voltage | Digital Voltage | Digital Voltage |
+| Continuity Check | Actie |  |  |  |  |  |
+| Breakout Pins | Idle for custom programming |  |  |  |  |  |
+| Reset Button | Reset and Readout settings mode |  |  |  |  |  |
 
 Lasercutting
 --------------------

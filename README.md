@@ -167,9 +167,9 @@ Modular-Door Control Logic
 | Output LED-Red | Idle | Write Indicator | Write Indicatr | Idle | Write Indicator | Write Indicator |
 | Buzzer | Coupled Continuity |  |  |  |  |  |
 | LED Matrix | Analog Voltage | Analog Voltage | Analog Voltage | Digital Voltage | Digital Voltage | Digital Voltage |
-| Continuity Check | Actie |  |  |  |  |  |
+| Continuity Check | Active |  |  |  |  |  |
 | Breakout Pins | Idle for custom programming |  |  |  |  |  |
-| Reset Button | Reset and Readout settings mode |  |  |  |  |  |
+| Reset Button | Reset and Readout settings mode |  |  |  |    |
 
 Lasercutting
 --------------------

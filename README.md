@@ -1,8 +1,8 @@
 # BITboy
 
-A handheld oscilloscope and behavior setup debugger for neuroscientists. Your every-day companion for trouble shooting and setting up experimental instruments.
+A handheld oscilloscope and behavioral setup debugger for neuroscientists. Your every-day companion for trouble shooting and setting up experimental instruments.
 
-Read and write analog as well as digital signals with ease. Check continuity in electronic circuits with the continuity checker. It can be used as a handheld oscilloscope or connected to your pc on a desk for higher resolution.
+Read and write both analog and digital signals with ease. Check continuity in electronic circuits with the continuity checker. It can be used as a handheld oscilloscope or connected to your pc on a desk for higher resolution.
 
 General disclaimer: Our BITboy is designed to work in a range of 0-5V and will take damage if connected to higher loads. Therefore, please be careful. We are planning a future version with overvoltage protector.
 

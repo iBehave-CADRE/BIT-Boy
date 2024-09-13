@@ -30,7 +30,7 @@ Power via Battery example
 Continuity check example
 BNC example
 
-## Easy
+## Exercises Easy
 
 ### 1. Make the LED Blink
 
@@ -49,13 +49,13 @@ void loop() {
 
 //Useful functions for this exercise:
 
-digitalWrite(pin, value)
-//pin: Arduino-Pinnummer.
-//value: HIGH or LOW.
-
 pinMode(pin, mode)
 //pin: the Arduino pin number to set the mode of.
 //mode: INPUT, OUTPUT, or INPUT_PULLUP.
+
+digitalWrite(pin, value)
+//pin: Arduino-Pinnummer.
+//value: HIGH or LOW.
 
 delay(ms)
 //ms: the number of milliseconds to pause. Allowed data types: unsigned long.
@@ -95,7 +95,38 @@ delay(ms)
 
 [Check out this link if you want to know how to play a melody](https://docs.arduino.cc/built-in-examples/digital/toneMelody/)
 
-### 3. Plot an Image on the LED Matrix (or display an animation if you feel like it)
+### 3. Write Analog or Digital Signals and Test it on the Oscilloscope
+
+```C
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
+
+//Useful functions for this exercise:
+
+pinMode(pin, mode)
+//pin: the Arduino pin number to set the mode of.
+//mode: INPUT, OUTPUT, or INPUT_PULLUP.
+
+digitalWrite(pin, value)
+//pin: Arduino-Pinnummer.
+//value: HIGH or LOW.
+
+analogWrite(pin, value)
+//pin: the Arduino pin to write to. Allowed data types: int.
+//value: the duty cycle: between 0 (always off) and 255 (always on). Allowed data types: int.
+
+```
+
+[Here you will find a possible solution](Exercise_Solutions\01_Easy\03_Write_Analog_Digital_Signals.md)
+
+### 4. Plot an Image on the LED Matrix (or display an animation if you feel like it)
 
 ```C
 void setup() {
@@ -138,32 +169,6 @@ matrix.renderBitmap(BootScreen, 8, 12);
 
 [More about arrays here](https://www.arduino.cc/reference/en/language/variables/data-types/array/)
 
-[Here you will find a simple solution](Exercise_Solutions/01_Easy/03_Make_LED_Matrix_Image.md)
+[Here you will find a simple solution](Exercise_Solutions/01_Easy/04_Make_LED_Matrix_Image.md)
 
 [Check out this link if you want to know how to play a more complex Animation ](https://docs.arduino.cc/tutorials/uno-r4-wifi/led-matrix/)
-
-### 4. Write an Analog or Digital Signal
-
-## Medium
-
-### 1. Read an Analog or Digital Signal and Plot it via Serial Communication
-
-### 2. Implement the Continuity Check
-
-### 3. Implement the DIP Switch
-
-### 4. Implement the Rotary Encoder with Button
-
-### 5. Implement the Rotary Encoder with Button
-
-## Hard
-
-### 1. Read an Analog or Digital and Plot it on the LED Matrix Display
-
-### 2. Combine All Modules and Make them Work Together
-
-
-
-
-
-

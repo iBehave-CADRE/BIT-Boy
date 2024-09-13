@@ -124,7 +124,7 @@ analogWrite(pin, value)
 
 ```
 
-[Here you will find a possible solution](Exercise_Solutions\01_Easy\03_Write_Analog_Digital_Signals.md)
+[Here you will find a possible solution](Exercise_Solutions/01_Easy/03_Write_Analog_Digital_Signals.md)
 
 ### 4. Plot an Image on the LED Matrix (or display an animation if you feel like it)
 

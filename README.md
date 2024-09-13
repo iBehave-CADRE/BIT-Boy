@@ -173,7 +173,7 @@ We used a Trotec Speedy Flex lasercutter with a 100W CO2 laser with the followin
 
 | Parameter | Cutting Quality |
 | :---: | :---: |
-| Power | 40 % |
+| Power | 40 Watts |
 | Speed | 0,2 % |
 | Laser Source | CO2 |
 | Frequency | 20000 |

@@ -1,8 +1,8 @@
 # Exercises
 
-We prepared a collection of exercises as a guide throuhg different communication channels of laboratory instruments: digital signals, analog signals and serial communication. These exercises are with increasing difficulty from easy, medium to hard. First, individual functional modules of the device will be adressed, later they will be combined for interoperability. Working throuhg them in a sequential manner will allow to built up know how to the point of generating the complete firmware. 
+We prepared a collection of exercises as a guide through different communication channels of laboratory instruments: digital signals, analog signals and serial communication. These exercises are increase in difficulty from easy, medium, to hard. First, individual functional modules of the device will be adressed, later they will be combined for interoperability. Working throuhg them in a sequential manner will allow you to build up the know-how required to generate the complete firmware. 
 
-This course will therefore provide essential knowledge for implementing and trouble shooting experimental setups for neuroscience. As a bonus, the resulting device will be a handy companion for future laboratory projects.
+This course will therefore provide essential knowledge for implementing and trouble-shooting experimental setups for neuroscience. As a bonus, the resulting device will be a handy companion for future laboratory projects.
 
 You will have to install the Arudino IDE and copy paste the code from GitHub to the sketch area in the GUI.
 
@@ -19,7 +19,7 @@ Here you can find a complete language reference, built in functions, variable ty
 
 [Arduino Language Reference](https://www.arduino.cc/reference/en/)
 
-To complete all exercises, you will have to master functions in Arduino. It can be used to create custom functions but also to pass parameters along and return data:
+To complete all exercises, you will have to master functions in Arduino. They can be used to create custom functions but also to pass parameters along and return data:
 
 [Using functions in a sketch](https://docs.arduino.cc/learn/programming/functions/)
 
@@ -28,7 +28,7 @@ Serial Printing is your most powerful debugging tool when coding your device:
 
 [Arduino serial communication](https://www.arduino.cc/reference/en/language/functions/communication/serial/)
 
-In some cases you will have to use the Serial Plotter  and/or Serial Monitor of the Arduino IDE:
+In some cases you will have to use the Serial Plotter and/or Serial Monitor of the Arduino IDE:
 
 Tools > Serial Plotter
 
@@ -36,7 +36,7 @@ Tools > Serial Monitor
 
 ## Exercises Easy
 
-Here you can make the individual module work and get some first exposure.
+Here you can make the individual modules work and get some first exposure.
 
 [Go To Exercises Easy](01_EXERCISES_easy.md)
 
@@ -64,7 +64,7 @@ Here modues with more complex functionality are implemented and in some cases in
 
 ## Exercises Hard
 
-At this point you will build upon the previous exercises and make all functions work together. Here it will be essential to implement Arduino functions with returns for global interacting modules. For example, each fuctional module of the device can be handled as an indepenent library.
+At this point you will build upon the previous exercises and make all functions work together. It will be essential to implement Arduino functions with returns for global interacting modules. For example, each fuctional module of the device can be handled as an indepenent library.
 
 You can save code in a separate .h file and include it as follows:
 

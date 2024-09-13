@@ -75,7 +75,7 @@ delay(ms)
 
 ### 2. Combine All Modules and Make them Work Together
 
-At this point you can build up on the previous exercises and make all functions work together.
+At this point you will build upon the previous exercises and make all functions work together.
 
 Here it will be essential to implement arduino functions with returns for global interacting modules.
 
@@ -87,6 +87,6 @@ You can save code in a separate .h file and include it as follows:
 
 In the upper right corner click on "..." and select new tab. You can rename it to DIPSwitch.h to generate an external file with additional code.
 
-This will allow to create configuration functions for each module and include them in the main code in void setup. In addition once can create functions to include in the loop that pass on parameters via return.
+This will allow you to create configuration functions for each module and include them in the main code in void setup. In addition once can create functions to include in the loop that pass on parameters via return.
 
 [Here you will find the finished firmware](Firmware\BITboy)

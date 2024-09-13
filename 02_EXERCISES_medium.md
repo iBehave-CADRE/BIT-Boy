@@ -63,7 +63,7 @@ analogReadResolution(bits);
 
 analogRead(pin)
 //pin: the name of the analog input pin to read from.
-//Returns the analog reading on the pin, limited to the resolution of the analog to digital converter (0-1023 for 10 bits or 0-4095 for 12 bits).
+//Returns the analog reading on the pin.
 //Data type: int.
 
 digitalRead(pin)

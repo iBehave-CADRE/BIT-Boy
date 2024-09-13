@@ -1,10 +1,9 @@
 
 
-pullup and pulldown resistors
-Rotary encoder example
+
 DIP switch example
 
-Arduino Function Overview for How to make them nicely interactive
+
 
 ## Exercises Medium
 
@@ -124,8 +123,142 @@ delay(ms)
 
 [Here you will find a possible solution](Exercise_Solutions/02_Medium/02_Continuity_Check.md)
 
+[Here you find information about using pullup and pulldown resistors](https://arduinogetstarted.com/faq/arduino-pull-up-pull-down-resistor)
+
+
+
 ### 3. Implement the DIP Switch
+
+The DIP switch is used to read out a preset when booting the device. You can implement the code in the setup section to only read it once and serial print the mode. Resetting will allow a new readout.
+
+```C++
+
+void setup() {
+
+}
+
+void loop() {
+
+}
+
+//Useful functions for this exercise:
+
+pinMode(pin, mode)
+//pin: the Arduino pin number to set the mode of.
+//mode: INPUT, OUTPUT, or INPUT_PULLUP.
+
+digitalRead(pin)
+//pin: the Arduino pin number you want to read
+// Returns HIGH or LOW
+
+for (initialization; condition; increment) {
+  // statement(s);
+}
+//initialization: happens first and exactly once.
+//condition: each time through the loop, condition is tested; if it’s true, the statement block, and the increment is executed, then the condition is tested again. When the condition becomes false, the loop ends.
+//increment: executed each time through the loop when condition is true.
+
+strcat(string1, string2);
+//Concatenates string1 with string1. Input tye char.
+//Returns concatenated string char.
+
+return value;
+//value: Allowed data types: any variable or constant type.
+
+//You can use an if/else if loop for this task
+if (condition1) {
+  // do Thing A
+}
+else if (condition2) {
+  // do Thing B
+}
+else {
+  // do Thing C
+}
+//condition: a boolean expression (i.e., can be true or false).
+
+Serial.begin(speed)
+//Serial: serial port object.
+//speed: in bits per second (baud). Allowed data types: long.
+
+Serial.print(val)
+//Serial: serial port object.
+//val: the value to print. Allowed data types: any data type.
+
+Serial.println(val) //Serial println adds characters for printing in a new line
+//Serial: serial port object.
+//val: the value to print. Allowed data types: any data type.
+```
+
+[Here you will find a possible solution](Exercise_Solutions/02_Medium/03_DIP_Switch.md)
+
+[Here you find more information about DIP switches](https://arduinogetstarted.com/tutorials/arduino-dip-switch)
+
+
 
 ### 4. Implement the Rotary Encoder with Button
 
-### 5. Implement the Rotary Encoder with Button
+```C++
+void setup() {
+  
+}
+
+
+void loop() {
+
+}
+
+pinMode(pin, mode)
+//pin: the Arduino pin number to set the mode of.
+//mode: INPUT, OUTPUT, or INPUT_PULLUP.
+
+digitalRead(pin)
+//pin: the Arduino pin number you want to read
+// Returns HIGH or LOW
+
+digitalWrite(pin, value)
+//pin: Arduino-Pinnummer.
+//value: HIGH or LOW.
+
+return value;
+//value: Allowed data types: any variable or constant type.
+
+//You can use an if/else if loop for this task
+if (condition1) {
+  // do Thing A
+}
+else if (condition2) {
+  // do Thing B
+}
+else {
+  // do Thing C
+}
+
+millis()
+//Returns the number of milliseconds passed since the Arduino board began running the current program. This number will overflow (go back to zero), after approximately 50 days.
+
+Serial.begin(speed)
+//Serial: serial port object.
+//speed: in bits per second (baud). Allowed data types: long.
+
+Serial.print(val)
+//Serial: serial port object.
+//val: the value to print. Allowed data types: any data type.
+
+Serial.println(val) //Serial println adds characters for printing in a new line
+//Serial: serial port object.
+//val: the value to print. Allowed data types: any data type.
+
+
+attachInterrupt(digitalPinToInterrupt(pin), ISR, mode)
+//interrupt: the number of the interrupt. Allowed data types: int.
+//pin: the Arduino pin number.
+//ISR: the ISR to call when the interrupt occurs; this function must take no parameters and return nothing. This function is sometimes referred to as an interrupt service routine.
+//mode: defines when the interrupt should be triggered. Four constants are predefined as valid values: LOW, CHANGE, RISING, FALLING.
+```
+
+[Here you will find a possible solution](Exercise_Solutions/02_Medium/04_Rotary_Button.md)
+
+[Here you find information about attaching an interrupt](https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/)
+
+[Here you find information rotary encoders](https://arduinogetstarted.com/tutorials/arduino-rotary-encoder)

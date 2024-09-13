@@ -1,4 +1,3 @@
-#include "api/Common.h"
 //LED for signal indication
 #define LEDPin D12
 

@@ -1,4 +1,3 @@
-#include "api/Common.h"
 //Rotary Encoder Definitions
 #define encAPin 3
 #define encBPin 4

@@ -1,3 +1,6 @@
+```C++
+#define version "1"
+
 //DIP Switch
 #define DIPSwitch1 6
 #define DIPSwitch2 7
@@ -14,12 +17,26 @@
 #define Constant " Constant"
 #define Pulse " Pulse"
 
-bool SettingsChange = false;
 int DIPSwitchSetting = 0;
 int DIPPinState = 0;
 char SettingsText[25];
+int Mode = 0;
 
 const int DIPSwitchPins[3] = {DIPSwitch1, DIPSwitch2, DIPSwitch3};
+
+void setup() {
+  Serial.begin(115200);
+  Serial.print("BITboy Interface Version ");
+  Serial.println(version);
+    for (int i = 0; i < DIPSwitchPositions; i++) {
+        pinMode(DIPSwitchPins[i], INPUT_PULLUP);
+    }
+    Mode = ReadDIPSwitchSettings();
+    Serial.println(Mode);
+}
+
+void loop() {
+}
 
 int ReadDIPSwitchSettings() {
   for (int i = 0; i < DIPSwitchPositions; i++) {
@@ -59,9 +76,4 @@ int ReadDIPSwitchSettings() {
 
   return DIPSwitchSetting;
 }
-
-void ConfigDIPSwitch() {
-  for (int i = 0; i < DIPSwitchPositions; i++) {
-    pinMode(DIPSwitchPins[i], INPUT_PULLUP);
-  }
-}
+```

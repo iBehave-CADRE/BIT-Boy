@@ -20,6 +20,10 @@ Here you can find a complete language reference, built in functions, variable ty
 
 [Arduino Language Reference](https://www.arduino.cc/reference/en/)
 
+Using functions in a scetch:
+
+[How to functions](https://docs.arduino.cc/learn/programming/functions/)
+How to pass parameters and return data. This is very important for hard exercises.
 
 For this exercise you will have to use the Serial Plotter and/or Serial Monitor of the Arduino IDE.
 
